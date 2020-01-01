@@ -10,6 +10,6 @@ for Linux machines. I eventually figured out I could run these tasks
 in Docker. Hence, this image.
 
 ## Examples
-Modify the `guest-build.sh` file then run `host-run.sh`. The default will fetch
-the Ubuntu Bionic cloudimg, set the root password to `rootpass`, convert it to
-a VMDK, then put it in the `shared/` directory. 
+Modify the `guest-build.sh` and `host-run.sh` files then run `host-run.sh`. The default
+will fetch the Ubuntu Bionic cloudimg, set the root password to `rootpass`, convert it
+to a VMDK, then put it in the `shared/` directory. 
